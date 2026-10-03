@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LANDING PAGE</title>
+        <style>
+            body {
+                font-family:Arial, Helvetica, sans-serif;
+                margin: 0;
+                background-color: beige;
+                font-style: italic;
+            }
+            section{
+                padding: 40 px;
+                text-align: center;
+            }
+            h1,h2 {
+                color: brown;
+            }
+            p{
+                color: gray;
+            }
+            button {
+                padding: 10px 20px;
+                background-color: maroon;
+                color: red;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            button:hover{
+                background-color: green;
+            }
+            img{
+                width: 500px;
+                border-radius: 10px;
+                margin-top: 20px;
+            }
+            ul {
+                width: 300px;
+                margin: auto;
+                text-align: left;
+            }
+            li {
+                margin: 10 px 0;
+            }
+            form {
+                max-width: 400px;
+                margin: auto;
+            }
+            input,textarea {
+                width: 100%;
+                padding: 10px;
+                margin: 8px 0;
+                box-sizing: border-box;
+            }
+            textarea{
+                height: 100px;
+            }
+            @media (max_width: 600px) {
+                section {
+                    padding: 20px;
+                }
+                img {
+                    width: 100%;
+                    max-width: 300px;
+                }
+                form {
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <h1>WELCOME TO MY WEBSITE</h1>
+            <p>Discover our services and learn more about us.</p>
+            <button>START</button>
+        </section>
+        <section>
+            <h2>ABOUT US</h2>
+            <p>We are a creatiive team dedicated to providing useful and high quality services to our customers.</p>
+            <img src="web.jpg" alt=""WEB DEVELOPMENT>
+        </section>
+        <section>
+            <h2>OUR SERVICES</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Web Design</li>
+                <li>Graphic Design</li>
+                <li>Technical Support</li>
+            </ul>
+        </section>
+        <section>
+            <h2>CONTACT US</h2>
+            <form>
+                <label>NAME</label>
+                <input type="text" placeholder="Enter Your Name">
+                <label>EMAIL</label>
+                <input type="email" placeholder="Enter Your Email">
+                <label>MESSAGE</label>
+                <textarea placeholder="Enter Your Message"></textarea>
+                <button type="submit">SUBMIT</button>
+            </form>
+        </section>
+    </body>
+</html>
